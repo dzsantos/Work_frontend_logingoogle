@@ -1,0 +1,228 @@
+/* login */
+.footer a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #90caf9;
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #fafafa; /* fundo claro */
+  color: #262626;
+}
+
+/* Estrutura da página */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar nav a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+  color: #0095f6; /* azul*/
+}
+
+/* Conteúdo principal*/
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.apresentacao-card {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.apresentacao-card h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.apresentacao-card h1 {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.intro-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Detalhes */
+.details-container details {
+  margin-bottom: 1rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  padding: 0.8rem;
+  background-color: #fafafa;
+}
+
+.details-container summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: #262626;
+}
+
+.details-container ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.details-container li {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #8e8e8e;
+}
+
+.footer a {
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  background-color: #b4b4b4;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(208, 208, 208, 0.4);
+  border: 1px solid #dbdbdb;
+}
+
+/* Título */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Cada grupo de input com fundo */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  background-color: #ffffff; /* fundo para cada campo */
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+.input-group label {
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+  color: #000000;
+}
+
+.input-group input {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #dfdfdf;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border: 1px solid #0095f6;
+  background-color: #8a8a8a;
+}
+
+/* Botões */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  flex: 1;
+  margin: 0 0.3rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #0095f6;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0077cc;
+  transform: scale(1.02);
+}
+
+.btn-secondary {
+  background-color: #7b7b7b;
+  color: #e0e0e0;
+}
+
+.btn-secondary:hover {
+  background-color: #616161;
+  transform: scale(1.02);
+}
